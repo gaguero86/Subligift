@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 
-<body class="imagen1">
+<body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top bg-white ">
             <div class="container-fluid">
                 <img src="../imagen/logo.png" class="header__logo" alt="logo">
-                <!--<a class="navbar-brand" href="#">SUBLIGIFT</a>-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,75 +23,130 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="titulo nav-item">
-                            <a class="active titulo titulo__tipo nav-link " aria-current="page"
-                                href="../index.html">Home</a>
+                            <a class="nav-link titulo" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Secciones/productos.html">Productos</a>
+                            <a class="nav-link titulo" href="../Secciones/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Secciones/ir-empresa.html">Ir empresa</a>
+                            <a class="nav-link titulo" href="../Secciones/ir-empresa.html">Ir empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Secciones/galeria.html">Galeria</a>
+                            <a class="nav-link titulo" href="../Secciones/galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Secciones/contactanos.html">Contactos</a>
+                            <a class="nav-link titulo" href="../Secciones/contactanos.html">Contactos</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <br><br><br><br>
     </header>
-    <main>
-        <section class="mt-6 py-5 justify-content-center">
+    <main class="imagen1">
+        <section class="mt-6 justify-content-center">
             <div class="d-flex flex-column titulo">
-                <h1 class="fw-bold py-5 titulo__tipo">Contactanos</h1>
+                <h1 class="fw-bold  titulo__tipo">Contactanos</h1>
             </div>
         </section>
-        <section class=" px-3 justify-content-center">
+        <!--<section class=" px-3 justify-content-center">
             <article>
                 <div class="">
-                <fieldset>
-                    <legend class="">Te contactamos</legend>
-                    <form action="envio.hph" method="post" enctype="text/plain">
-                        <label name="nombre-y-apellido">Nombre y Apellido</label>
-                        <input type="text" name="nombre-y-apellido" placeholder="Nombre y Apellido"><br>
-                        Sexo <label><input type="radio" name="sexo" value="M">Masculino</label>
-                        <label><input type="radio" name="sexo" value="F">Femenino </label><br>
-                        <label name="e-mail">E-mail</label>
-                        <input type="email" e-mail="ingrese-mail" placeholder="Ingrese E-mail">
-                        ¿Desea recibir promociones? <label><input type="checkbox"></label> <br>
-                        <label name="telefono">Telefono</label>
-                        <input type="number" telefono="numero" placeholder="Numero"> <br>
-                        <br>
-                        <label name="comentarios">Comentarios:</label><br>
-                        <input type="text" Comentarios="comentarios" placeholder="Ingresa tus comentarios"> <br>
-                        <br>
-                        <input type="submit" value="Enviar Formulario">
-                        <input type="reset" value="Limpiar Formulario">
-                        <input type="button" value="Boton">
-                    </form>
-                </fieldset>
+                    <fieldset>
+                        <legend class="">Te contactamos</legend>
+                        <form action="envio.hph" method="post" enctype="text/plain">
+                            <label name="nombre-y-apellido">Nombre y Apellido</label>
+                            <input type="text" name="nombre-y-apellido" placeholder="Nombre y Apellido"><br>
+                            Sexo <label><input type="radio" name="sexo" value="M">Masculino</label>
+                            <label><input type="radio" name="sexo" value="F">Femenino </label><br>
+                            <label name="e-mail">E-mail</label>
+                            <input type="email" e-mail="ingrese-mail" placeholder="Ingrese E-mail">
+                            ¿Desea recibir promociones? <label><input type="checkbox"></label> <br>
+                            <label name="telefono">Telefono</label>
+                            <input type="number" telefono="numero" placeholder="Numero"> <br>
+                            <br>
+                            <label name="comentarios">Comentarios:</label><br>
+                            <input type="text" Comentarios="comentarios" placeholder="Ingresa tus comentarios"> <br>
+                            <br>
+                            <input type="submit" value="Enviar Formulario">
+                            <input type="reset" value="Limpiar Formulario">
+                            <input type="button" value="Boton">
+                        </form>
+                    </fieldset>
                 </div>
-                
+
+            </article>
+        </section>-->
+        <section class="px-5 fondo3">
+            <article>
+                <div>
+                    <fieldset>
+                        <legend class="">Hace tu pedido</legend>
+                        <form action="envio.hph" method="post" enctype="text/plain"></form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                            <input type="text" class="form-control fondo3" id="exampleFormControlInput1"
+                                placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Teléfono de contacto</label>
+                            <input type="number" class="form-control fondo3" id="exampleFormControlInput1"
+                                placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                            <input type="text" class="form-control fondo3" id="exampleFormControlInput1"
+                                placeholder="Dirección">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control fondo3" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                            <textarea class="form-control fondo3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div>
+                            <input class="btn btn-primary boton" type="button" value="Pedir">
+                            <input class="btn btn-primary boton" type="reset" value="Limpiar">
+                        </div>
+                        </form>
+                    </fieldset>
+                </div>
             </article>
         </section>
+        <br><br><br><br>
     </main>
-    <footer>
-        <section class="d-flex justify-content-end align-items-center p-md-5 " >
-            <div class="row"> 
+    <footer class="bg-white">
+        <section class="d-flex justify-content-sm-around align-items-center p-md-2">
+            <div class="row titulo ">
                 <div class="col">
-                    <a href="https://www.facebook.com/search/top?q=subligift.cba"></a><img src="../imagen/FACEBOOK.png" alt="Facebook" class="imagen"> 
+                    <img src="../imagen/carrito.JPG" class="imagen" alt="envios">
+                    <p>Hace tus pedido, te lo sublimamos.</p>
+                    <p>Consulta precios por compras al por mayor.</p>
                 </div>
-                <div class="col">
-                    <a href="https://www.instagram.com/subligift.cba/?hl=es-la"></a> <img src="../imagen/INSTAGRAM.png"alt="Instragram" class="imagen"> 
-                </div>
-                <div class="col">
-                    <img src="../imagen/twitter.png" alt="Twitter" class="imagen">    
-                </div>
-                
             </div>
+            <div class="row titulo">
+                <div class="col">
+                    <img src="../imagen/envios.JPG" class="imagen" alt="envios">
+                    <p>Hacemos envios a domicilio</p>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col titulo2">
+                    <h3 class="titulo2">Seguinos</h3>
+                    <p>Mantenete actualizado</p>
+                </div>
+                <div class="col">
+                    <a href="https://www.facebook.com/search/top?q=subligift.cba"><img src="../imagen/FACEBOOK.png"
+                        alt="Facebook" class="imagen"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/subligift.cba/?hl=es-la"><img src="../imagen/INSTAGRAM.png"
+                        alt="Instragram" class="imagen"></a>
+                </div>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
